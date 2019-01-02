@@ -1,0 +1,1405 @@
+<html lang="en" slick-uniqueid="4">
+<head>
+  <meta charset="UTF-8">
+  <title>莎莎官网</title>
+ 
+  <!-- banner的CSS样式 -->
+  <link rel="stylesheet" type="text/css" href="./css/index/banner.css" />
+  
+  <link rel="stylesheet" type="text/css" href="./css/index/index_head.css" />
+  <!-- 这个页面主体CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/index/styles.css" >
+
+  <!-- 最顶部元旦活动和轮播图下面广告的CSS + 查看跟多特卖按钮css-->
+  <link rel="stylesheet" type="text/css" href="./css/index/homepage20180731.css" />
+  <!-- 字体图标 -->
+  <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
+  <link rel="stylesheet" type="text/css" href="./css/iconfont1.css" />
+  <!-- 自己写的css -->
+  <link rel="stylesheet" type="text/css" href="./css/index/index1.css" />
+
+  <script type="text/javascript" src="./lib/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+  <script type="text/javascript" src="./js/login/login.js"></script>
+  <!-- <script type="text/javascript" src="./js/head/head.js"></script> -->
+  <script type="text/javascript" src="./js/index/index_head.js"></script>
+  <script type="text/javascript" src="./lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/index/index.js"></script>
+  <!-- 下拉刷新的css，一般不用 -->
+  <!-- <link rel="stylesheet" href="./css/index/dropload.css"> -->
+</head>
+
+<body class="index-page min-page">
+  <div class="index_homead">
+    <a class="top_adv_container" href="#" target="_blank" from_time="1544630400000" to_time="1546358399000" style="">
+      <div class="top_adv_container_inner" style="background:url('./img/index/newyear.jpg') center top no-repeat;height='80px'">
+      </div>
+    </a>
+<!--     <span class="top_adv_container_close" id="top_adv_container_close"></span> -->
+  </div>
+<div class="topbar">
+  <div class="page-rs">
+    <div class="login-bar">
+      <span id="loginBar_538">
+        <span>欢迎光临莎莎网！</span>
+        <a href="#" style="margin-left:10px;" class="logon">登录</a>
+        <span style="color: #ec3e7d;cursor: pointer;"></span>
+        <span class="dividing">或</span>
+        <a href="#" class="login">免费注册</a>
+      </span>
+    </div>
+    <div class="member-link">
+      <ul>
+        <li class="noline">  
+          <div class="member-linktext">
+            <a rel="nofollow" href="#"> <i class="iconfont icon-wodezhanghu"></i>我的账户<i class="iconfont icon-xiangxia" style="color:#6C6C6C;"></i>
+            </a>
+          </div>
+          <dl ="mem_dl">
+              <dd><a href="#" rel="nofollow">我的订单</a></dd>
+              <dd><a href="#" rel="nofollow">我的积分</a></dd>
+              <dd><a href="#" rel="nofollow">我的优惠券</a></dd>
+              <dd><a href="#" rel="nofollow">我的收藏</a></dd>
+              <dd><a href="#" rel="nofollow">我的评价</a></dd>
+          </dl>
+        </li>
+        <li class="noline">
+          <div id="minicart_540" class="member-linktext">
+            <div class="js_minicart-title tc">
+              <a href="#"><i class="iconfont icon-gouwuche"></i>我的购物车</a>
+            </div>
+            <div class="MiniCarDetail minicart-cont-rs" style="visibility: hidden; display: block;">
+            <div class="empty">购物车中还没有商品，<br>快去挑选心爱的商品吧
+            </div>
+            </div>
+          </div>
+        </li>
+        <li class="noline">
+          <div class="member-linktext">
+            <a href="#" rel="nofollow">
+              <i class="iconfont icon-icowodeshoucang"></i>我的收藏
+            </a>
+          </div>
+        </li>
+        <li class="noline">
+          <div class="member-linktext" id="index_mymessage">
+            <a rel="nofollow" href="#">我的站內信</a>
+          </div>
+        </li>
+        <li class="noline">
+          <div class="member-linktext">
+            <a href="#" type="url" target="_blank" rel="nofollow">积分中心</a>
+          </div>
+        </li>
+      <li class="noline">
+        <div class="member-linktext">
+          <a href="#" type="url" target="_blank" rel="nofollow">Global site</a>
+        </div>
+      </li>
+      <li class="noline">
+        <div class="member_attention">
+          <a rel="nofollow" href="#">关注我们 </a>
+          <a rel="nofollow"  href="#" class="attention_l">
+            <img src="./img/head/weibo.png" alt="" height="15" width="17">
+             <img src="./img/head/dweibo.jpg" alt="" width="100px" height="100px" class="qr_img">
+          </a>
+          <a rel="nofollow" href="#" class="attention_r">
+            <img src="./img/head/weixin.png" alt="" height="14" width="17">
+             <img src="./img/head/dweixin.jpg" alt="" width="100px" height="100px" class="qr_img">
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<div style="display:none;" id="index_page_outer">
+<div class="overlay tc">
+  <img src="./img/index/overlay-banner.png" border="0" usemap="#Map">
+  <map name="Map">
+    <area shape="rect" coords="682,0,734,65">
+  </map>
+</div>
+<div class="page_outer"></div>
+</div>
+<div class="header-main">
+  <div class="page-rs">
+    <div class="sotelogo-rs">
+      <div style="float: left;">    <a href="#" target="_blank">
+        <img src="./img/index/logo.gif" alt="欢迎光临莎莎网" width="200" height="45">
+      </a>
+    </div>
+
+    <div class="site_log_extend" style="float: left;">
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+  <div class="search clearfix">
+    <form action="/search-result.html" method="post" class="SearchBar  searchBar_548" id="searchbar_548" async="false">
+      <div class="search-input">
+        <input type="text" name="search_keywords" placeholder="JMsolution" autocompleter="associate_autocomplete_goods:name,goods_id" ac_options="{}" class="key" value="" autocomplete="off">
+      </div>
+      <button type="submit" class="btn btn-search submit-btn">搜索</button>
+    </form>
+    <div class="hot-keywords rs">
+      <a href="#">海藻面膜</a>
+      <a href="#">兰蔻粉水</a>
+      <a href="#">面霜</a>
+      <a href="#">口红</a>
+      <a href="#">科颜氏</a>
+      <a href="#">VT</a>
+      <a href="#">瑞士葆丽美</a>
+    </div>
+  </div>
+  <div class="topright fr" id="J_topCartBar">
+    <div class="app-adv-bar">
+    </div>
+  </div>
+</div>
+</div>
+<div class="nav-category">
+  <div class="page-rs">
+    <div class="all-category">
+      <div id="cat_550">
+        <div class="sasa_category_head">
+          <div class="sasa_category_head_icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>全部分类
+        </div>
+        <div class="sasa_category" style="visibility: visible;">
+          <ul class="sasa_category_ul">
+            <li class="sasa_category_item">
+              <div class="sasa_category_item_inner">
+
+                <div class="sasa_category_item_hd"><a href="#">面部护肤</a></div>
+                <i class="iconfont icon-xiangyou more_category"></i>
+                <div class="sasa_category_sidebox">
+
+                  <div class="sasa_category_row sasa_category_row_fst">
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="">洁面/磨砂</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#">泡沫洁面乳</a>
+                        <a href="#">洁面摩丝</a>
+                        <a href="#">洁面啫喱</a>
+                        <a href="#" class="category_item_hot">洁面奶</a>
+                        <a href="#">洁面皂</a>
+                        <a href="#">洁面粉</a>
+                        <a href="#">磨砂膏</a>
+                        <a href="#">磨砂啫喱</a>
+                      </div>
+                    </div>
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="">眼部/唇部/颈部护理</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#" class="category_item_hot">眼霜</a>
+                        <a href="#">眼胶</a>
+                        <a href="#">眼部精化/疗程</a>
+                        <a href="#">眼膜</a>
+                        <a href="#">睡眠免洗式眼膜</a>
+                        <a href="#">润唇膏</a>
+                        <a href="#">唇部精化</a>
+                        <a href="#">唇膜</a>
+                        <a href="#">唇部磨砂</a>
+                        <a href="#">颈霜</a>
+                        <a href="#">颈精华</a>
+                        <a href="#">颈膜</a>
+                      </div>
+                    </div>
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="">面膜</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#">面膜贴</a>
+                        <a href="#">水洗式面膜</a>
+                        <a href="#">睡眠面膜</a>
+                        <a href="#">面膜粉</a>
+                        <a href="#">面膜泥</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sasa_category_row sasa_category_row_sec">
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="#">防晒护理</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#">防晒乳液</a>
+                        <a href="#">防晒啫喱</a>
+                        <a href="#" class="category_item_hot">防晒喷雾</a>
+                        <a href="#">防晒膏</a>
+                        <a href="#">晒后护理</a>
+                        <a href="">晒黑用品</a>
+                        <a href="#">防晒伞</a>
+                      </div>
+                    </div>
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="#">暗疮护理</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#">暗疮膏</a>
+                        <a href="#">暗疮精华</a>
+                        <a href="#">黑头导出液/膏</a>
+                        <a href="#">撕拉式鼻贴/鼻膜</a>
+                        <a href="">暗疮针</a>
+                      </div>
+                    </div>
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="#">精华/化妆水</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#">精华液</a>
+                        <a href="#">精华素/疗程</a>
+                        <a href="#">柔肤水</a>
+                        <a href="#" class="category_item_hot">精华水</a>
+                        <a href="#">爽肤水</a>
+                        <a href="#">紧肤水</a>
+                        <a href="#" class="category_item_hot">保湿喷雾</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sasa_category_row sasa_category_row_thd">
+                    <div class="sasa_category_column">
+                      <div class="sasa_category_column_head"><a href="#">卸妆</a></div>
+                      <div class="sasa_cateory_item_list">
+                        <a href="#">卸妆油</a>
+                        <a href="#">眼/唇专用卸妆液</a>
+                        <a href="#">卸妆水</a>
+                        <a href="#">卸妆乳</a>
+                        <a href="#">卸妆啫喱</a>
+                        <a href="#">卸妆纸巾</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="category_sidebox_arrow" style="top: 17px;"></div></li>
+              <li class="sasa_category_item">
+                <div class="sasa_category_item_inner">
+                  <div class="sasa_category_item_hd"><a href="#">彩妆</a></div>
+                  <i class="iconfont icon-xiangyou more_category"></i>
+                  <div class="sasa_category_sidebox">
+                    <div class="sasa_category_row sasa_category_row_fst">
+                      <div class="sasa_category_column">
+                        <div class="sasa_category_column_head"><a href="#">面部彩妆</a></div>
+                        <div class="sasa_cateory_item_list">
+                          <a href="#">隔离霜</a>
+                          <a href="#">粉底</a>
+                          <a href="#">遮瑕</a>
+                          <a href="#">BB霜</a>
+                          <a href="#">CC霜</a>
+                          <a href="#">胭脂</a>
+                        </div>
+                      </div>
+                      <div class="sasa_category_column">
+                        <div class="sasa_category_column_head"><a href="">眼部彩妆</a></div>
+                        <div class="sasa_cateory_item_list">
+                          <a href="#">眉笔/眉粉</a>
+                          <a href="#">眼影</a>
+                          <a href="#">眼线</a>
+                          <a href="#">睫毛膏</a>
+                        </div>
+                      </div>
+                      <div class="sasa_category_column">
+                        <div class="sasa_category_column_head"><a href="">其他</a></div>
+                        <div class="sasa_cateory_item_list">
+                          <a href="#">美唇</a>
+                          <a href="#">彩妆盒/套装</a>
+                          <a href="#">化妆棉</a>
+                          <a href="#">化妆工具</a>
+                          <a href="#">美甲</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="category_sidebox_arrow" style="top: 69px;"></div></li>
+                <li class="sasa_category_item">
+                  <div class="sasa_category_item_inner">
+                    <div class="sasa_category_item_hd"><a href="#">香水</a></div>
+                    <i class="iconfont icon-xiangyou more_category"></i>
+                    <div class="sasa_category_sidebox">
+                      <div class="sasa_category_row sasa_category_row_fst">
+                        <div class="sasa_category_column">
+                          <div class="sasa_category_column_head"><a href="#">香水</a></div>
+                          <div class="sasa_cateory_item_list">
+                            <a href="#">女士香水</a>
+                            <a href="#">男士香水</a>
+                            <a href="#">香水套装</a>
+                            <a href="#">香水工具</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_sidebox_arrow" style="top: 122px;"></div></li>
+                  <li class="sasa_category_item">
+                    <div class="sasa_category_item_inner">
+                      <div class="sasa_category_item_hd"><a href="#">健康美肌</a></div>
+                      <i class="iconfont  icon-xiangyou more_category"></i>
+                      <div class="sasa_category_sidebox">
+                        <div class="sasa_category_row sasa_category_row_fst">
+                          <div class="sasa_category_column">
+                            <div class="sasa_category_column_head"><a href="#">健康美肌</a></div>
+                            <div class="sasa_cateory_item_list">
+                              <a href="#">美容补充品</a>
+                              <a href="#">保健品</a>
+                              <a href="#">非处方药</a>
+                              <a href="#">健康零食</a>
+                              <a href="#">天然草本茶</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category_sidebox_arrow" style="top: 175px;"></div></li>
+                    <li class="sasa_category_item">
+                      <div class="sasa_category_item_inner">
+                        <div class="sasa_category_item_hd"><a href="#">纤体美胸</a></div>
+                        <i class="iconfont icon-xiangyou more_category"></i>
+                        <div class="sasa_category_sidebox">
+                          <div class="sasa_category_row sasa_category_row_fst">
+                            <div class="sasa_category_column">
+                              <div class="sasa_category_column_head"><a href="#">纤体美胸</a></div>
+                              <div class="sasa_cateory_item_list">
+                                <a href="#">纤体护理</a>
+                                <a href="#">纤体食品</a>
+                                <a href="#">纤体工具</a>
+                                <a href="#">纤体套装</a>
+                                <a href="#">美胸用品</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="category_sidebox_arrow" style="top: 228px;"></div></li>
+                      <li class="sasa_category_item">
+                        <div class="sasa_category_item_inner">
+                          <div class="sasa_category_item_hd"><a href="#">个人护理</a></div>
+                          <i class="iconfont icon-xiangyou more_category"></i>
+                          <div class="sasa_category_sidebox">
+                            <div class="sasa_category_row sasa_category_row_fst">
+                              <div class="sasa_category_column">
+                                <div class="sasa_category_column_head"><a href="#">身体护理</a></div>
+                                <div class="sasa_cateory_item_list">
+                                  <a href="#">沐浴/润肤</a>
+                                  <a href="#">洗发/护发</a>
+                                  <a href="#">头发造型</a>
+                                  <a href="#">手足部护理</a>
+                                  <a href="#">脱毛用品</a>
+                                  <a href="#">女性护理</a>
+                                  <a href="#">止汗香体</a>
+                                </div>
+                              </div>
+                              <div class="sasa_category_column">
+                                <div class="sasa_category_column_head"><a href="">其他</a></div>
+                                <div class="sasa_cateory_item_list">
+                                  <a href="#">隐形眼镜</a>
+                                  <a href="#">口腔护理</a>
+                                  <a href="#">家具用品</a>
+                                  <a href="#">头饰/饰物</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="category_sidebox_arrow" style="top: 280px;"></div></li>
+                        <li class="sasa_category_item">
+                          <div class="sasa_category_item_inner">
+                            <div class="sasa_category_item_hd"><a href="./html/list.html">男士专区</a></div>
+                            <i class="iconfont icon-xiangyou more_category"></i>
+                            <div class="sasa_category_sidebox">
+                              <div class="sasa_category_row sasa_category_row_fst">
+                                <div class="sasa_category_column">
+                                  <div class="sasa_category_column_head"><a href="#">男士专区</a></div>
+                                  <div class="sasa_cateory_item_list">
+                                    <a href="#">男士洁面</a>
+                                    <a href="#">男士护肤</a>
+                                    <a href="#">剃须护理</a>
+                                    <a href="#">男士头部护理</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="category_sidebox_arrow" style="top: 333px;"></div>
+                          </li>
+                          <li class="sasa_category_item last">
+                            <div class="sasa_category_item_inner">
+                              <div class="sasa_category_item_hd"><a href="#">孕婴护理</a></div>
+                              <i class="iconfont icon-xiangyou more_category"></i>
+                              <div class="sasa_category_sidebox">
+                                <div class="sasa_category_row sasa_category_row_fst">
+                                  <div class="sasa_category_column">
+                                    <div class="sasa_category_column_head"><a href="#">孕婴护理</a></div>
+                                    <div class="sasa_cateory_item_list">
+                                      <a href="#">母婴团</a>
+                                      <a href="#">婴儿沐浴</a>
+                                      <a href="#">婴儿护肤</a>
+                                      <a href="#">婴儿食品</a>
+                                      <a href="#">孕妇护肤</a>
+                                      <a href="#">孕妇食品</a>
+                                      <a href="#">其他孕婴工具</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="category_sidebox_arrow" style="top: 386px;"></div></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tj-category-rs">
+                      <ul id="sub_nav_551">
+                       <li class="sub_nav_item">
+                        <a style="cursor:pointer;font-size: 16px;font-weight: normal;display: block;" href="#">
+                          <img src="./img/index/zhida.gif">
+                        </a>
+                      </li>
+                      <li class="sub_nav_sep"><a>/</a></li>
+                      <li class="sub_nav_item">
+                        <a style="cursor:pointer;font-size: 16px;font-weight: normal;display: block;" href="#">闪电保税仓</a>
+                      </li>
+                      <li class="sub_nav_sep"><a>/</a></li>
+                      <li class="sub_nav_item">
+                        <a style="cursor:pointer;font-size: 16px;font-weight: normal;display: block;" href="#">限时特卖<i class="sub_nav_hoticon"></i></a>
+                      </li>
+                      <li class="sub_nav_sep"><a>/</a></li>
+                      <li class="sub_nav_item">
+                        <a style="cursor:pointer;font-size: 16px;font-weight: normal;display: block;" href="#">大牌底价购</a>
+                      </li>
+                      <li class="sub_nav_sep"><a>/</a></li>
+                      <li class="sub_nav_item">
+                        <a style="cursor:pointer;font-size: 16px;font-weight: normal;display: block;" href="#">贵宾专享</a>
+                      </li>
+
+                      <li class="sub_nav_sep"><a>/</a></li>
+                      <li class="nav-item nav-item-more" id="nav-item-more_551">
+                        <div class="nav-text"><a href="#" target="_blank">所有品牌<i class="iconfont icon-down"></i></a></div>  
+                        <div class="nav-itembox" id="nav-itembox_551" style="visibility:hidden;">
+                          <div class="navtip-arr"><i class="iconfont"></i></div>
+                          <div class="navtip-text">热门品牌</div>
+                          <div class="clb">
+                            <div class="nav-brandtext fl">
+                              <ul class="scroll-pane-arrows" id="scroll-pane-arrows">
+                                <li class="">
+                                  <a href="#" target="_blank">森田药妆&nbsp;SAM TIN</a>
+                                </li>
+                                <li class="">
+                                  <a href="#" target="_blank">希思黎&nbsp;Sisley</a>
+                                </li>
+                                <li class="">
+                                  <a href="#" target="_blank"> 雅诗兰黛&nbsp;Estee Lauder </a>
+                                </li>
+                                <li class="">
+                                  <a href="#" target="_blank">兰蔻&nbsp;Lancome</a>
+                                </li>
+                                <li class="">
+                                  <a href="#" target="_blank">SK-II</a>
+                                </li>
+                                <li class="">
+                                  <a href="#" target="_blank">资生堂&nbsp;Shiseido</a>
+                                </li>
+                                <li class="">
+                                   <a href="#" target="_blank">高丝&nbsp;Kose</a>
+                                </li>
+                                <li class="">
+                                  <a href="#" target="_blank">雅漾&nbsp;Avene</a>
+                                </li>
+                              </ul>
+                              <a href="#" class="nav-brandmore" target="_blank"><b>查看全部品牌</b></a>      
+                            </div>
+                            <div class="nav-brandpic fr">
+                                              <ul>
+                                                <li class=""><a href="#">
+                                                  <img src="https://www.sasa.com/public/images/fe/f6/05/7cf3be3b2e9ab4ec20defc5a76855c872db5da36.jpg?1474446763#w"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/22278f2d654bbe9ca9ff1c3029792d99d91cbae1.jpg"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/8f268340e63f324b04ba69e1f9998436c9412ef4.jpg"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/eb216f9245eb337fcac315e175ae0f80bd438168.jpg"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/e213cfb06dc55e3f5ca4fb633114dbf8883fb65e.jpg"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/f4927611c357341e254e9fc589c21c0eadb32163.jpg"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/84035545206de24a726b3168acb99425409943cb.jpg"></a>
+                                                </li>
+                                                <li class=""><a href="#">
+                                                  <img src="./img/index/faed18ca86c9c44bafaf59d4aa357f0c5502e648.jpg"></a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+  
+  <!-- ==============banner区域======================= -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!--小圆 -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-example-generic" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-example-generic" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-example-generic" data-slide-to="3">
+    </li>
+  </ol>
+  <!-- 轮播图片 -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./img/index/banner1.jpg" alt="...">
+    </div>
+    <div class="item">
+      <img src="./img/index/banner2.jpg" alt="...">
+    </div>
+    <div class="item">
+      <img src="./img/index/banner3.jpg" alt="...">
+    </div>
+    <div class="item">
+      <img src="./img/index/banner4.jpg" alt="...">
+    </div>
+  </div>
+</div>
+<!-- ======================================================== -->
+<div class="sasa_broadcast_outer_wrapper">
+<div class="sasa_broadcast">
+        <div class="sasa_broadcast_icon">
+        </div>
+        <div class="sasa_broadcast_word_icon">
+                                  公告
+        </div>
+        <div class="sasa_broadcast_content">
+          <ul class="sasa_broadcast_content_inner" style="margin-top: -84px;">
+            <li class="sasa_broadcast_adv" style="opacity: 1;"><a class="sasa_broadcast_adv_link" href="#">【双旦节】莎莎网双旦节领奖通知 2018.12.18</a></li>
+            <li class="sasa_broadcast_adv" style="opacity: 1;"><a class="sasa_broadcast_adv_link" href="#">【积分换豪礼】积分换豪礼幸运名单 2018.11.27</a></li>
+            <li class="sasa_broadcast_adv" style="opacity: 1;"><a class="sasa_broadcast_adv_link" href="#">【物流提示】莎莎网中期盘点 2018.11.27</a></li>
+            <li class="sasa_broadcast_adv cur" style="opacity: 1;"><a class="sasa_broadcast_adv_link" href="#">【万圣狂欢趴】布朗熊南瓜杯得奖名单 2018.11.06</a></li>
+            <li class="sasa_broadcast_adv" style="opacity: 1;"><a class="sasa_broadcast_adv_link" href="#">【物流提示】2018中国国庆假期通知 2018.9.26</a></li>
+            <li class="sasa_broadcast_adv sasa_broadcast_adv_extension" style="opacity: 1;"><a class="sasa_broadcast_adv_link" href="#">【双旦节】莎莎网双旦节领奖通知 2018.12.18</a></li>
+          </ul>
+        </div>
+        <a class="sasa_broadcast_more" href=""></a>
+</div>
+</div>
+<div id="cat_589">
+  <div class="category-handle">
+        所有分类
+  </div>
+  <div class="category-box" style="visibility: visible;">
+    <ul class="cat-ex-vertical">
+      <li class="cat-item first">
+        <div class="cat-root-box">
+          <div class="cat-text"><a href=""></a></div>
+          <div class="cat-redundancy">
+            <link rel="stylesheet" href="#"> <div id="promo2" style="width:1200px; height:190px; margin:20px auto 0px;"> <div class="promo2A"> <a href="#" target="_blank"> 
+            <img src="./img/index/promo2a-12.jpg"> </a></div> <div class="promo2B"> <a href="#" target="_blank"> 
+            <img src="./img/index/promo2b-21.jpg"> </a></div> <div class="promo2C"> <a href="#" target="_blank"> 
+            <img src="./img/index/promo2c-06.jpg"> </a></div> </div> 
+          </div>
+          <div class="cat-children-box">
+              &nbsp; 
+          </div>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="sasa_promise">
+      <div class="sasa_promise_item sasa_promise_item_0">
+        <div class="sasa_promise_icon sasa_promise_icon0">
+        </div>
+        <div class="sasa_promise_content">
+          <p class="sasa_promise_title">香港特快直送</p>
+          <p class="sasa_promise_subtit">包税零扣关 ¥288免邮</p>
+        </div>
+      </div>
+      <div class="sasa_promise_item sasa_promise_item_1">
+        <div class="sasa_promise_icon sasa_promise_icon1">
+        </div>
+        <div class="sasa_promise_content">
+          <p class="sasa_promise_title">正品保证</p>
+          <p class="sasa_promise_subtit">专注美妆护肤40年</p>
+           </div>
+            </div>
+             <div class="sasa_promise_item sasa_promise_item_2">
+              <div class="sasa_promise_icon sasa_promise_icon2">
+              </div>
+              <div class="sasa_promise_content">
+                <p class="sasa_promise_title">保税仓直送</p>
+                <p class="sasa_promise_subtit">包税零扣关 ¥168免邮</p>
+              </div>
+            </div>
+          <div class="sasa_promise_item sasa_promise_item_3">
+            <div class="sasa_promise_icon sasa_promise_icon3">
+            </div>
+            <div class="sasa_promise_content">
+              <p class="sasa_promise_title">30天退换保证</p>
+              <p class="sasa_promise_subtit">为您提供售后无忧保障</p>
+            </div>
+          </div>
+      <div class="sasa_promise_item sasa_promise_item_4">
+      <div class="sasa_promise_icon sasa_promise_icon4">
+     </div>
+    <div class="sasa_promise_content">
+      <p class="sasa_promise_title">香港上市</p>
+    <p class="sasa_promise_subtit">股票代码 HK00178</p>
+    </div>
+    </div>
+    </div>
+    <div class="floor_location" style="display: none; left: -194px;" id="flooricon_536">
+      <ul class="flooricon">
+      <li title="每日必看"><a href="#" id="floor_0"><i class="iconfont"></i>必看</a></li>
+      <li title="限时特卖"><a href="#" id="floor_1"><i class="iconfont"></i>特卖</a></li>
+      <li title="新品上市"><a href="#" id="floor_2"><i class="iconfont"></i>新品</a></li>
+      <li title="销售排行榜"><a href="#" id="floor_3"><i class="iconfont"></i>排行榜</a></li>
+      </ul>
+    </div>
+    <div id="floor_show_location"></div>
+    <a name="floor_0"></a>
+
+
+<!-- ==============================每日必看============================================ -->
+<div class="flashsale page-rs">
+  <div class="sasa_mustcheck" title="每日必看">
+    <div class="sasa_mustcheck_head"></div>
+    <div id="sasa_mustcheck_container">
+
+    </div>
+  </div>
+</div>
+
+<!-- =====================限时特卖====================================  -->
+  <a name="floor_1"></a>
+  <div class="sasa_limit_head_container" id="index_seckill_514_container">
+  <div class="sasa_limit_head" title="限时特卖"></div>
+  <div class="sasa_limit_subtit">每天09:00准时开抢</div>
+    <div class="sasa_limit_container" id="sasa_limit_container_514">
+      <div class="sasa_limit" id="index_seckill_514"></div>
+    </div>
+  </div>
+  <div class="limit_lg_more_llm">
+    <a href="#" target="_blank">查看更多特卖&nbsp;<span>►</span></a>
+  </div>
+
+<!-- =======================销售排行榜=============================== -->
+
+  <a name="floor_3"></a>
+  <div class="fulbg-rs transparent-bkg">
+    <div class="topsales-rs page-rs" title="销售排行榜">
+      <div class="sasa_rank">
+        <div class="sasa_ranking_head"></div>
+        <div id="sales_ranking_list_pc">
+
+        <div class="sasa_rank_column " id="sasa_new_ranking_1">
+          <div class="sasa_rank_column_hd">护肤排行榜</div> 
+          <div class="sasa_rank_item" goods_id="15570" id="sasa_rank_item_15070"></div>
+        </div>
+
+        <div class="sasa_rank_column " id="sasa_new_ranking_2">
+          <div class="sasa_rank_column_hd">彩妆排行榜</div>  
+          <div class="sasa_rank_item" goods_id="8346" id="sasa_rank_item_7615"></div>
+        </div>
+
+        <div class="sasa_rank_column sasa_rank_column_third " id="sasa_new_ranking_3">
+          <div class="sasa_rank_column_hd">个护排行榜</div>
+          <div class="sasa_rank_item" goods_id="11236" id="sasa_rank_item_10505"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================新品======================================= -->
+
+<div class="footer-rs">
+  <div class="helper">
+    <div class="footer_promise clearfix">
+      <a name="floor_2"></a>
+      <div class="newarrivals-rs page-rs">
+
+      <div class="arrivalbox">
+          <div class="new_arrivalbox"></div>
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+           <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+            </div>
+          </div>
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+            <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+          
+
+          
+           <div class="new_box">
+            <div class="sasa_new">
+              <a href="#">
+                <ul class="sasa_ul">
+                    <li class="sasa_ul_1">
+                        <span>新品<span>上市</span></span>
+                    </li>
+                    <li class="sasa_ul_2">
+                        <span></span>
+                    </li>
+                    <li class="sasa_ul_3">
+                        <span>欧美品牌</span>
+                    </li>
+                </ul>
+            <div class="sasa_img">
+                <img src="../img/index/ran10.jpg" alt="" />
+            </div>
+            <p class="jian">
+                <a href="">
+                    <span class="chan">香港特快直送 零扣关 包税</span>
+                    <span class="yr">泰国妆蕾&nbsp;泰国妆蕾玫瑰纯露野麦仁独家首发] &nbsp;10片</span>
+                </a>
+            </p>
+            <p class="jia">
+                <span>￥</span><span>65</span>
+                <span>￥69.0</span>
+            </p>
+              </a>
+            </div>
+            </div>
+          </div>
+         </div>
+      </div>
+
+
+
+
+
+                    <div id="product_notify" class="product-notify" style="display:none;">
+                      <p class="desc">该货品暂时缺货，请在下面输入您的邮箱地址或手机号码，当我们有现货供应时，我们会发送邮件通知您！</p>
+                      <form class="form" method="post" action="/product-toNotify.html">
+                        <input type="hidden" name="item[0][goods_id]" value="">
+                        <input type="hidden" name="item[0][product_id]" value="">
+                        <ul>
+                          <li class="form-item">
+                            <label for="email" class="form-label">邮箱地址：</label>
+                            <span class="form-act">
+                              <input class="x-input" type="text" name="email" id="dom_el_cb7e320" size="30" vtype="email">            </span>
+                            </li>
+                            <li class="form-item">
+                              <label for="cellphone" class="form-label">手机号码：</label>
+                              <span class="form-act">
+                                <input class="x-input" type="text" name="cellphone" id="dom_el_cb7e321" size="30" vtype="number">            </span>
+                              </li>
+                              <li class="form-item form-item-last">
+                                <label class="form-label"></label>
+                                <span class="form-act">
+                                  <button type="submit" class="btn btn-caution" rel="_request"><span><span>提交</span></span></button>            </span>
+                                </li>
+                              </ul>
+                            </form>
+                          </div>
+
+  <div class="sasa_bottomadv" style="display: none;" from_time="1528792200000" to_time="1528905599000">
+    <div class="sasa_bottomadv_wrapper">
+      <div class="sasa_bottomadv_cover"></div>
+      <div class="sasa_bottomadv_adv" style="left: -19px;">
+        <div class="sasa_bottomadv_adv_inner">
+          <a href="#" target="_blank">
+            <img class="sasa_bottomadv_img" src="http://cn02alicdn.sasa.com/public/images/fa/14/fc/f0011dd1a29de3f65c6cbfe039f47b453e4b71c3.jpg?1528791854#w" alt=""></a>
+            <div class="sasa_bottomadv_closebtn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sasa_promise_wrapper">
+      <div class="sasa_promise">
+        <div class="sasa_promise_item sasa_promise_item_0">
+          <div class="sasa_promise_icon sasa_promise_icon0">
+          </div>
+          <div class="sasa_promise_content">
+            <p class="sasa_promise_title">香港特快直送</p>
+            <p class="sasa_promise_subtit">包税零扣关 ¥288免邮</p>
+          </div>
+        </div>
+        <div class="sasa_promise_item sasa_promise_item_1">
+          <div class="sasa_promise_icon sasa_promise_icon1">
+          </div>
+          <div class="sasa_promise_content">
+            <p class="sasa_promise_title">正品保证</p>
+            <p class="sasa_promise_subtit">专注美妆护肤40年</p>
+          </div>
+        </div>
+        <div class="sasa_promise_item sasa_promise_item_2">
+          <div class="sasa_promise_icon sasa_promise_icon2">
+          </div>
+          <div class="sasa_promise_content">
+            <p class="sasa_promise_title">保税仓直送</p>
+            <p class="sasa_promise_subtit">包税零扣关 ¥168免邮</p>
+          </div>
+        </div>
+        <div class="sasa_promise_item sasa_promise_item_3">
+          <div class="sasa_promise_icon sasa_promise_icon3">
+          </div>
+          <div class="sasa_promise_content">
+            <p class="sasa_promise_title">30天退换保证</p>
+            <p class="sasa_promise_subtit">为您提供售后无忧保障</p>
+          </div>
+        </div>
+        <div class="sasa_promise_item sasa_promise_item_4">
+          <div class="sasa_promise_icon sasa_promise_icon4">
+          </div>
+          <div class="sasa_promise_content">
+            <p class="sasa_promise_title">香港上市</p>
+            <p class="sasa_promise_subtit">股票代码 HK00178</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-rs clearfix">
+    <div class="footer_left clearfix">
+      <div class="clearfix">
+        <div class="btom-info">
+        </div>
+        <div class="helper-item-wrapper-rs">
+          <div class="helper-item-rs">
+            <dl class="footer_info_2">
+              <dt class="footer_info_2_title" style="color:#111111">
+                <a class="link" href="#">常见问题</a>
+              </dt>
+              <li class="article-index-list"><ul><dd class="article-index lv-1 content-item">
+                <a href="#" title="常见问题" rel="nofollow">常见问题</a>
+              </dd> <dd class="article-index lv-1 content-item">
+              <a href="#" title="联络我们" rel="nofollow">联络我们</a>
+            </dd></ul></li></dl>
+          </div>
+          <div class="helper-item-rs">
+            <dl class="footer_info_2">
+              <dt class="footer_info_2_title" style="color:#111111">
+                <a class="link" href="#">付款方式</a>
+              </dt>
+              <li class="article-index-list"><ul><dd class="article-index lv-1 content-item">
+                <a href="#" title="在线支付" rel="nofollow">在线支付</a>
+              </dd> <dd class="article-index lv-1 content-item">
+              <a href="#" title="积分支付" rel="nofollow">积分支付</a>
+            </dd></ul></li></dl>
+          </div>
+          <div class="helper-item-rs">
+            <dl class="footer_info_2">
+              <dt class="footer_info_2_title" style="color:#111111">
+                <a class="link" href="#">配送方式</a>
+              </dt>
+              <li class="article-index-list"><ul><dd class="article-index lv-1 content-item">
+                <a href="#" title="配送说明" rel="nofollow">配送说明</a>
+              </dd> <dd class="article-index lv-1 content-item">
+              <a href="#" title="追踪订单" rel="nofollow">追踪订单</a>
+            </dd></ul></li></dl>
+          </div>
+          <div class="helper-item-rs">
+            <dl class="footer_info_2">
+              <dt class="footer_info_2_title" style="color:#111111">
+                <a class="link" href="#">售后服务</a>
+              </dt>
+              <li class="article-index-list"><ul><dd class="article-index lv-1 content-item">
+                <a href="#" title="正品保证" rel="nofollow">正品保证</a>
+              </dd> <dd class="article-index lv-1 content-item">
+              <a href="#" title="价格承诺" rel="nofollow">价格承诺</a>
+            </dd> <dd class="article-index lv-1 content-item">
+            <a href="#" title="30日退换保证" rel="nofollow">30日退换保证</a>
+          </dd> <dd class="article-index lv-1 content-item">
+          <a href="#" title="退款程序" rel="nofollow">退款程序</a>
+        </dd> <dd class="article-index lv-1 content-item">
+        <a href="#" title="更改订单" rel="nofollow">更改订单</a>
+      </dd></ul></li></dl>
+    </div>
+    <div class="helper-item-rs">
+      <dl class="footer_info_2">
+        <dt class="footer_info_2_title" style="color:#111111">
+          <a class="link" href="#">莎莎会员</a>
+        </dt>
+        <li class="article-index-list"><ul><dd class="article-index lv-1 content-item">
+          <a href="#" title="积分奖赏" rel="nofollow">积分奖赏</a>
+        </dd> <dd class="article-index lv-1 content-item">
+        <a href="#" title="VIP会员计划" rel="nofollow">VIP会员计划</a>
+      </dd></ul></li></dl>
+    </div>
+  </div>
+</div>
+<div class="clearfix">
+  <a href="#">
+    <img src="./img/index/shangbiao.jpg" alt="" width="840" height="61">
+  </a>
+</div>
+</div>
+<div class="footer_right clearfix">
+  <div class="btom-code">
+    <div class="footer_qrcode_wrapper">
+      <div class="footer_qrcode_img">
+        <img src="./img/index/dweixin.jpg" alt="莎莎网官方微信" height="128" width="128">
+      </div>
+      <div class="footer_qrcode_name">
+        莎莎网官方微信
+      </div>
+      <div class="footer_qrcode_desc">
+        ID:hksasadotcom
+      </div>
+    </div>
+  </div>
+  <div class="btom-code btom-code2">
+    <div class="footer_qrcode_wrapper">
+      <div class="footer_qrcode_img">
+        <img src="./img/index/dweibo.jpg" alt="莎莎官方微博" height="128" width="128">
+      </div>
+      <div class="footer_qrcode_name">
+        莎莎网官方微博
+      </div>
+      <div class="footer_qrcode_desc">
+        @莎莎网
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="sidebar" style="height: 591px;">
+  <div class="sidebar-box">
+    <div class="box-one">
+      <div class="sidecarts-explain-rs">
+        <a href="" target="_blank"></a>
+        <div class="sidecarts-w-h"></div>
+      </div>
+      <div class="sidecarts-w-h"></div>
+      <div class="mui-mbar-tab mui-mbar-tab-prof" id="mysasadiv">
+        <a class="sidebar-link" href="#"><i class="iconfont icon-wodezhanghu"></i></a>
+        <a href="#" class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;" id="mysasa">
+          我的账户
+          <div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div>
+        </a>
+      </div>
+      <div class="sidecart">
+        <div class="sidecart-text" id="js_carttitle">
+          <a href="#"><i class="iconfont icon-gouwuche"></i>购物车</a>
+          <b><span id="js_cartnum">0</span></b>
+        </div>
+        <div class="sidecart-cont ui-sidecart-cont" id="js_sidecart" style="height: 591px;">
+          <div class="cart-conttitle"><button class="btn-close" id="js_closecart" title="关闭" type="button"><i class="iconfont"></i></button>购物车</div>
+          <div id="js_updatecart" class="J-updatecart"><div class="no-information ui-sidecart-empty">购物车中还没有商品，赶紧选购吧！</div>
+        </div>
+      </div>
+    </div>
+    <div class="mui-mbar-tab mui-mbar-tab-prof" id="myfavdiv">
+      <a class="sidebar-link" href="#"><i class="iconfont icon-icowodeshoucang"></i></a>
+      <a href="#" class="mui-mbar-tab-tip" style="right:70px; opacity:0;display: none;" id="myfav">
+        我的收藏
+        <div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div>
+      </a>
+    </div>
+    <div class="mui-mbar-tab mui-mbar-tab-prof sidehistory" id="mysidehistorydiv">
+      <a class="sidebar-link" href="#" id="js_historytitle"><i class="iconfont icon-shizhongclock74"></i></a>
+      <a href="#" class="mui-mbar-tab-tip" style="right:70px; opacity:0;display: none;" id="mysidehistory">
+        浏览记录
+        <div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div>
+      </a>
+      <div class="sidecart-cont" id="js_sidehistory" style="height: 591px;">
+        <div class="cart-conttitle">
+          <button class="btn-close" title="关闭" type="button" id="js_closehistory">
+            <i class="iconfont icon-shizhongclock74"></i>
+          </button>
+          最近查看
+        </div>
+        <p id="js_hisnum"><a id="clear_history" href="#" class="fr red">清空</a>共2件商品</p>
+        <div class="sidecart-list" id="box_sidehistory" style="height: 511px; max-height: 591px; overflow-y: auto;"><dl><dt><a href="#" target="_blank" title="<b class='yew'>国内保税仓 零扣关 包税 </b>VDL  贝壳提亮液妆前乳 30毫升" inner_img="http://cn02alicdn.sasa.com/public/images/d0/cc/e9/307b6085a14624ee76753b4ba0b883d86dcaa972.jpg?1539145849#h" gid="13779" class="product-img"></a></dt><dd><h5><a href="#" target="_blank" title="<b class='yew'>国内保税仓 零扣关 包税 </b>VDL  贝壳提亮液妆前乳 30毫升" class="product-name"><b class="yew">国内保税仓 零扣关 包税 </b>VDL  贝壳提亮液妆前乳 30毫升</a></h5><div class="btn-price">￥111.0</div><a href="#" class="btn-scart" target="_dialog_minicart">加入购物车</a></dd></dl><dl><dt><a href="#" target="_blank" title="<b class='yew'>香港特快直送 零扣关 包税 </b>伊丽莎白 · 雅顿  黄金导航夜间抗皱胶囊 30粒" inner_img="http://cn02alicdn.sasa.com/public/images/13/c7/87/655455a2aca0b0fe59bb30bb51a1a792743d2b5b.jpg?1539056565#h" gid="27266" class="product-img"></a></dt><dd><h5><a href="#" target="_blank" title="<b class='yew'>香港特快直送 零扣关 包税 </b>伊丽莎白 · 雅顿  黄金导航夜间抗皱胶囊 30粒" class="product-name"><b class="yew">香港特快直送 零扣关 包税 </b>伊丽莎白 · 雅顿  黄金导航夜间抗皱胶囊 30粒</a></h5><div class="btn-price">￥322.0</div><a href="#" class="btn-scart" target="_dialog_minicart">加入购物车</a></dd></dl></div>
+      </div>
+    </div>
+  </div>
+  <div class="box-two">
+    <div class="mui-mbar-tab mui-mbar-tab-prof" id="mydisdiv">
+      <a class="sidebar-link" href="#"><i class=""></i></a>
+      <a href="#" class="mui-mbar-tab-tip" style="right:70px; opacity:0;display: none;" id="mydis">
+        线上客服
+        <div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div>
+      </a>
+    </div>
+    <div class="mui-mbar-tab mui-mbar-tab-prof sidecode1" id="mysidecodediv">
+      <a href="#"><i class="iconfont icon-erweima"></i></a>
+      <div class="mui-mbar-tab-tip" style="right:120px; opacity:0;display: none;margin-top: -50px;" id="mysidecode">
+        <img src="./img/index/dcb98cec3f24117a4f2c7f9bebf2914b353b03c9.jpg" width="140px" height="140px">
+        <div class="mui-mbar-arr mui-mbar-tab-tip-arr" style="right: -58px;z-index:-1;margin-top: 50px;color:#fff;">◆</div>
+      </div>
+    </div>
+    <div class="sideup" id="goTopBtn" style="visibility:hidden">
+      <div class="sideup-text">
+        <a href="#"><i class="iconfont f12"></i>TOP</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_link_2" id="footer_link_2_562">
+  <div class="footer_link_2_inner">
+    <div class="footer_link_2_linkboard">
+      <a href="#" rel="nofollow">关于莎莎</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">使用条款</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">隐私策略</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">批发服务</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">招商合作</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">帮助中心</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">港澳店铺推广</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">人才招聘</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">联络我们</a>
+      <a class="footer_link_2_sep">|</a>
+      <a href="#" rel="nofollow">其他送货地区</a>
+    </div>
+    <div class="footer_link_2_copyright">
+      Copyright 2000-2018 Sa Sa dot Com Limited  版权所有莎莎国际控股有限公司成员
+    </div>
+  </div>
+</div>
+<ul class="autocompleter-choices" style="display: none; z-index: 999;"></ul><iframe id="veUtilsIframe" width="0" height="0" style="visibility: hidden; display: none; border: none;"></iframe><iframe id="1545447812568" tabindex="-1" src="https://configch2.veinteractive.com/scripts/shared/iframeStorage.html?iframeId=1545447812568&amp;journeyId=13286" style="display: none;"></iframe></body></html>

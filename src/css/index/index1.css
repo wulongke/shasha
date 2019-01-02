@@ -1,0 +1,105 @@
+.arrivalbox {
+  /*width: 1200px;*/
+  margin: 0 auto;
+  *zoom: 1;
+
+}
+.arrivalbox .new_arrivalbox{
+    height: 52px;
+    background: url(../../img/index/new_arrival.png) no-repeat center ;
+}
+
+.arrivalbox .new_arrivalbox .new_box {
+  width: 100%;
+  overflow: hidden;
+}
+ .new_box .sasa_new{
+    width: 280px;
+    height: 370px;
+    margin: 6px 13px 6px 0px;
+    float: left;
+    background-color: #fff;
+}
+ .new_box .sasa_new:hover{
+    border: 1px solid #FC3F83;
+ }
+.new_box .sasa_new:nth-child(1),.new_box .sasa_new:nth-child(2),.new_box .sasa_new:nth-child(3),.new_box .sasa_new:nth-child(4){
+    margin-top: 14px;
+}
+
+.new_box .sasa_new:nth-child(4),.new_box .sasa_new:nth-child(8),.new_box .sasa_new:nth-child(12){
+    margin-right: 0;
+    background: #000;
+} 
+.new_box .sasa_new .sasa_ul{
+    height: 60px;
+}
+.new_box .sasa_new .sasa_ul li{
+    float: left;
+}
+.new_box .sasa_new .sasa_ul .sasa_ul_1{
+    width: 40px;
+    height: 40px;
+    background-color: #80B53F;
+    margin: 10px 0 0 10px;
+}
+.new_box .sasa_new .sasa_ul .sasa_ul_1 span{
+    font-size: 13px;
+    line-height: 14px;
+    color: #fff;
+    padding: 6px 4px;
+    letter-spacing: 1px;
+}
+.new_box .sasa_new .sasa_ul .sasa_ul_2{
+    margin: 10px 12px 0 145px;
+}
+.new_box .sasa_new .sasa_ul .sasa_ul_2 span{
+    display: block;
+    height: 30px;
+    width: 20px;
+     background: url("../../img/index/korean_icon.png") no-repeat;
+ }
+ .new_box .sasa_new .sasa_ul .sasa_ul_3 span{
+    display: block;
+    color: #999;
+    line-height: 20px;
+    margin-top: 10px;
+ }
+ .new_box .sasa_new .sasa_img{
+    height: 230px;
+ }
+.new_box .sasa_new .sasa_img img{
+    height: 230px;
+    width: 280px;
+  }
+.new_box .sasa_new  .jian{
+    padding: 0 20px;
+    height: 33px;
+} 
+.new_box .sasa_new  a{
+    font-size: 10px;
+    color: #222;
+    line-height: 12px;
+  }
+.new_box .sasa_new  a .chan{
+   color: #ee9c23;
+}
+.new_box .sasa_new  .jia{
+    margin-top: 20px;
+}
+.new_box .sasa_new .jia span:nth-child(1){
+    display: block;
+    color: #fc3f83;
+    font-size: 12px;
+    margin-top: -1px;
+    float: left;
+}
+.new_box .sasa_new .jia span:nth-child(2){
+    color: #fc3f83;
+    font-size: 18px;
+}
+.new_box .sasa_new .jia span:nth-child(3){
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+}

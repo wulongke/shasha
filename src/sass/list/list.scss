@@ -1,0 +1,230 @@
+.main {
+width: 1090px;
+margin: 0 auto;
+margin-top: 50px;
+min-height: 1000px;
+  & .page_left{
+    float: left;
+    width: 253px;
+    min-height: 500px;
+  }
+  & .page_right{
+    width: 810px;
+    min-height: 500px;
+    float: right;
+    // ==========筛选=======
+    & .filter{
+      width: 810px;
+      height: 30px;
+      margin-top: 10px;
+      background: #fff;
+      margin-bottom: 25px;
+      & ul{
+        float: left;
+      }
+      & li{
+        float: left;
+        line-height: 30px;
+        font-size: 12px;
+        color: #666666;        
+      }
+      & .filter_left{
+        width: 448px;
+        & li{
+        width: 70px;
+        padding-left: 25px;
+        border-right: 1px solid #f1f1f1;
+        cursor: pointer;
+        }    
+        & .sort{
+          width: 74px;
+          cursor: text;
+        }
+        & .sell{
+          position: relative;
+          & img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: none;
+          }
+        }
+        & .popu{
+          position: relative;
+          & img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: none;
+          }
+        }
+        & .score{
+          position: relative;
+          & img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: none;
+          }
+        }
+        & .regi{
+          width: 94px;
+          padding-left: 20px;
+          position: relative;
+          
+           & img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: none;
+          }
+        }
+        & .rate{
+          position: relative;
+          & img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: none;
+          }
+        }
+      }
+      & .filter_right{
+        width: 362px;
+        padding-left: 28px;
+        & .goods_num{
+          color: #818284;
+          margin: 0 62px 0 26px;
+          cursor: text;         
+        }
+        & .page{
+          & a img{
+            cursor: pointer;
+          }
+        }
+      }
+
+    }
+
+    // ==========商品内容css
+    
+    & .article{
+      width: 810px;
+      min-height: 500px;
+      & .dispy{
+        position: relative;
+        width: 252px;
+        height: 482px;
+        background: #fff;
+        margin: 0 27px 27px 0;
+        &:nth-child(3),&:nth-child(6),&:nth-child(9),&:nth-child(12),&:nth-child(15),&:nth-child(18),&:nth-child(21),&:nth-child(24){
+        margin-right: 0;
+        }
+        & .dispy_img{
+          height: 253px;
+          width: 253px;
+          & img{
+            width: 99%;
+            height: 100%;
+          }
+        }
+        & .dispy_sele{
+          position: absolute;
+          top: 5px;
+          left:5px;
+          width: 40px;
+          height: 40px;
+          background: #EC3E7D;
+          & span{
+            line-height: 20px;
+            text-align: center;
+            padding-left: 5px;
+            color: #fff;
+            font-weight: 999;
+          }
+        }
+        & .ibm{
+          position: absolute;
+          right:5px;
+          top: 5px;
+          color: #98999b;
+        }
+      }
+      & .price{
+        width: 253px;
+        height: 48px;
+        border-bottom: 1px solid #eee;
+        border-top: 1px solid #eee;
+        color: #858587;
+        padding-left: 20px;
+        & span{
+          line-height: 48px;
+        }
+        & .price_dis{
+          color: #ec3e7d;
+          font-size: 24px;
+          margin-right: 8px;
+        }
+        & .price_orig{
+          color: #858587;
+          font-size: 14px;
+          margin-right: 10px;
+          text-decoration:line-through;
+        }
+        & .price_count{
+          float: right;
+          color: #C99A7A;
+          font-size: 14px;
+          margin-right: 5px;
+        }
+      }
+      & .intpro_top{
+        font-size: 13px;
+        color: #3e3e3e;
+        font-weight: 900;
+        padding-left: 15px;
+        & .intpro_tx{
+          color: #ee9c23;
+          float: left;
+        }
+        & .intpro_sz{
+        display: inline-block;
+        overflow:hidden;
+        text-overflow:ellipsis; 
+        white-space: nowrap !important;
+        outline: 0 !important;
+          width: 45px;
+        }
+      }
+      & .intpro_bt{
+        font-size: 13px;
+        color: #3e3e3e;
+        padding-left: 15px;
+      }
+      & .pcs{
+        margin-top: 17px;
+        font-size: 12px;
+        color: #404040;
+        padding-left: 15px;
+        line-height: 28px;
+      }
+       & .sales{
+        font-size: 12px;
+        color: #B9B9B9;
+        padding-left: 15px;
+        line-height: 28px;
+      }
+
+
+
+
+    }
+
+
+
+
+
+
+
+  }
+}

@@ -1,0 +1,265 @@
+.flashsale {
+  padding-top: 40px;
+  padding-top: 0px;
+}
+
+.flashsale .flashsalebt {
+  margin-bottom: 10px;
+  border-bottom: 4px solid #ec3e7d;
+  padding-bottom: 25px;
+}
+
+.flashsale .flashsalebt span {
+  text-indent: -9999px;
+  width: 345px;
+  height: 31px;
+  display: block;
+  background-position: 0 -70px;
+}
+
+.flashsale .flashsalebt a {
+  float: right;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.flashsale .flashsalebt a:hover {
+  color: #ec3e7d;
+}
+
+.flashsale .detailwords {
+  padding: 30px 0 20px 0;
+}
+
+.flashsale .detailwords a {
+  font-size: 14px;
+}
+
+.flashsalelist {
+  width: 1260px;
+  margin-left: -25px;
+  float: left;
+}
+
+.flashsalelist li {
+  width: 346px;
+  height: 574px;
+  background: #fff;
+  float: left;
+  margin: 0 0 25px 25px;
+}
+
+.flashsalelist li a {
+  width: 346px;
+  height: 574px;
+  display: block;
+  position: relative;
+}
+
+.flashsalelist li:hover {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.flashsalelist li:hover .flashsale-pic img {
+  -webkit-filter: blur(24px);
+  -moz-filter: blur(40px);
+  -o-filter: blur(40px);
+  -ms-filter: blur(40px);
+  filter: blur(40px);
+  filter: blur(24px);
+  z-index: 10;
+}
+
+.flashsalelist li:hover i.buynow2 {
+  background-position: 0 -615px;
+}
+
+.flashsalelist li .iconfont {
+  color: #c69a62;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.flashsalelist li p.tr {
+  font-size: 14px;
+}
+
+.flashsale-pic {
+  width: 346px;
+  height: 346px;
+  overflow: hidden;
+  display: block;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.flashsale-pic img {
+  height: 346px;
+  display: block;
+  margin: 0 auto;
+}
+
+.page-rs {
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.page-rs:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: "\0020";
+  clear: both;
+}
+
+.header-main .page-rs {
+  position: relative;
+  height: 95px;
+}
+.index-scohead .page-rs {
+  position: relative;
+}
+.mustcheck .page-rs {
+  background: #fff;
+  z-index: 100;
+  position: relative;
+  top: 1px;
+}
+.sasa_mustcheck, .sasa_mustcheck * {
+  margin: 0;
+  padding: 0;
+}
+
+.sasa_mustcheck {
+  font-size: 12px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 2px;
+}
+
+.sasa_mustcheck b {
+  font-weight: 700;
+}
+
+.sasa_mustcheck_item {
+  width: 592px;
+  height: 260px;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 16px;
+  border: 1px solid #eee;
+}
+
+.sasa_mustcheck_item:hover {
+  box-shadow: 0px 0px 6px 2px #ddd;
+}
+
+.sasa_mustcheck_item_odd {
+  float: right;
+}
+
+.sasa_mustcheck_item_even {
+  float: left;
+}
+
+.sasa_mustcheck_img {
+  width: 360px;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+#sasa_mustcheck_container {
+  overflow: hidden;
+}
+
+#sasa_mustcheck_container a {
+  width: 592px;
+  overflow: hidden;
+}
+
+#sasa_mustcheck_container .sasa_mustcheck_a_odd {
+  float: left;
+}
+
+#sasa_mustcheck_container .sasa_mustcheck_a_even {
+  float: right;
+}
+
+.sasa_mustcheck_info {
+  width: 230px;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+
+.sasa_mustcheck_info p {
+  text-align: center;
+}
+
+.sasa_mustcheck_title {
+  margin-top: 60px;
+  font-size: 22px;
+  color: #e93b78;
+}
+
+.sasa_mustcheck_title span {
+  font-weight: bold;
+  font-family: "Arial";
+  font-size: 28px;
+  position: relative;
+  top: 3px;
+  margin: 0 2px;
+}
+
+.sasa_mustcheck_subtit {
+  color: #5a5a5a;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.sasa_mustcheck_date {
+  color: #5a5a5a;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.sasa_mustcheck_btn {
+  display: block;
+  width: 108px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 62px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  background-color: #e93b78;
+  letter-spacing: 1px;
+}
+
+.sasa_mustcheck_btn:hover {
+  background-color: #c53265;
+}
+
+.sasa_mustcheck_head {
+  width: 1200px;
+  height: 26px;
+  margin-top: 10px;
+  margin-bottom: 26px;
+  background: url("../../img/index/must_check.png") no-repeat;
+}
+
+
+
+
+
+
+

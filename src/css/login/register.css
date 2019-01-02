@@ -1,0 +1,160 @@
+.min-page {
+  background: #fff;
+  color: #3e3e3e;
+}
+
+.page {
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.page .wrap {
+  background: url(../../img/login/1.png) no-repeat 0 center;
+  margin-top: 40px;
+}
+
+.page .signin {
+  width: 422px;
+  padding: 35px;
+  margin-right: 68px;
+  box-shadow: 0 0 5px #e1e1e1, 0 0 15px #e1e1e1;
+  margin-bottom: 10px;
+}
+
+.page .signin .sign-title {
+  height: 74px;
+  margin-top: 21px;
+  background: #fff;
+}
+
+.page .signin .sign-title .sign-title-text {
+  color: #5a5d6c;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.page .signin .sign-title .sign-title-text span {
+  font-size: 12px;
+  float: right;
+}
+
+.page .signin .sign-title .sign-title-text span a {
+  color: #ec3e7d;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.page .signupbox {
+  margin-top: 0;
+}
+
+.page .signupbox .form-item {
+  position: relative;
+  width: 385px;
+}
+
+.page .signupbox .form-item .form-label {
+  display: none;
+}
+
+.page .signupbox .form-item .form-act {
+  font-size: 12px;
+  position: relative;
+}
+
+.page .signupbox .form-item .form-act .accout_hint {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.page .signupbox .form-item .form-act .pwd_hint {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.page .signupbox .form-item .form-act .con_hint {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.page .signupbox .form-item .form-act .x-input {
+  border: 1px solid #ccc;
+  width: 340px;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 25px;
+  color: #888;
+}
+
+.page .signupbox .form-item .form-act .verify-input {
+  float: left;
+  height: 36px;
+  width: 120px;
+  border-color: #f9a0b4;
+  box-shadow: 0 0 5px #fbb4b0;
+}
+
+.page .signupbox .form-item .form-act .auto-change-verify-handle {
+  margin: 25px 5px 0 3px;
+  cursor: pointer;
+  width: 80px;
+  height: 36px;
+  color: #fff;
+  font-size: 12px;
+  background: #ec3e7d;
+}
+
+.page .signupbox .form-item .form-act .logy {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  height: 36px;
+  width: 80px;
+  line-height: 36px;
+  font-size: 12px;
+  color: #000;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.page .signupbox .form-ct {
+  position: relative;
+  height: 14px;
+  font-size: 12px;
+  margin: 35px 0;
+}
+
+.page .signupbox .form-ct .form-sub-label {
+  top: 0px;
+  left: 30px;
+  color: #3e3e3e;
+}
+
+.page .signupbox .form-item-normal {
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.page .signupbox .form-item-normal .btn-big {
+  display: block;
+  width: 100%;
+  background: #ec3e7d;
+  color: #fff;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.page .signupbox .form_es {
+  height: 30px;
+}
+
+.clb {
+  zoom: 1;
+  clear: both;
+}

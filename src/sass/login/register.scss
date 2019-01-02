@@ -1,0 +1,140 @@
+.min-page{
+    background: #fff;
+    color: #3e3e3e;
+}
+.page{
+    width: 1090px;
+    margin: 0 auto;
+    & .wrap{
+        background: url(../../img/login/1.png) no-repeat 0 center;
+        margin-top: 40px;
+    }
+  & .signin{
+
+  width: 422px;
+  padding: 35px;
+  margin-right: 68px;
+  box-shadow: 0 0 5px #e1e1e1, 0 0 15px #e1e1e1;
+  margin-bottom: 10px;
+  & .sign-title{
+  height: 74px;
+  margin-top: 21px;
+  background: #fff;
+  & .sign-title-text{
+    color: #5a5d6c;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    & span{
+      font-size: 12px;
+      float: right;
+    & a{
+      color: #ec3e7d;
+      margin-left: 3px;
+      margin-right: 3px;
+      }
+    }
+  }
+ }
+}
+// =================================
+  & .signupbox{
+    margin-top: 0;
+    & .form-item{
+    position: relative;
+    // min-height: 51px;
+    width: 385px;
+    & .form-label{
+      display: none;
+    }
+    & .form-act{
+      font-size: 12px;
+      position: relative;
+      & .accout_hint{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+      }
+      & .pwd_hint{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+      }
+      & .con_hint{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+      }
+      & .x-input{
+        border: 1px solid #ccc;
+        width: 340px;
+        height: 36px;
+        line-height: 36px;
+        margin-top: 25px;
+        color: #888;
+      }
+      & .verify-input{
+        float: left;
+        height: 36px;
+        width: 120px;
+        border-color: #f9a0b4;
+        box-shadow: 0 0 5px #fbb4b0;
+      }
+      & .auto-change-verify-handle{
+        margin: 25px 5px 0 3px;
+        cursor: pointer;
+        width: 80px;
+        height: 36px;
+        color: #fff;
+        font-size: 12px;
+        background: #ec3e7d;
+      }
+      & .logy{
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 100px;
+        height: 36px;
+        width: 80px;
+        line-height: 36px;
+        font-size: 12px;
+        color: #000;
+        margin-left: 3px;
+        margin-right: 3px;
+        }
+      }  
+    }
+    & .form-ct{
+      position: relative;
+      height: 14px;
+      font-size: 12px;
+      margin: 35px 0;
+      & .form-sub-label{
+        top: 0px;
+        left: 30px;
+        color: #3e3e3e;
+      }
+    }
+    & .form-item-normal{
+      overflow: hidden;
+      font-size: 13px;
+      & .btn-big{
+        display: block;
+        width: 100%;
+        background: #ec3e7d;
+        color: #fff;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+    & .form_es{
+      height: 30px;
+    }
+  }
+  // ===========================
+}
+.clb{
+    zoom: 1;
+    clear: both;
+}

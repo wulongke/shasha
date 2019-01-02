@@ -1,0 +1,216 @@
+.goods_bd {
+  width: 100px;
+  height: 100px;
+  margin-left: 350px;
+}
+
+.pick {
+  width: 990px;
+  min-height: 456px;
+  margin: 0 auto;
+}
+
+.pick .pick_car {
+  background: #fff;
+  min-height: 300px;
+}
+
+.pick .pick_car .pick_car_title {
+  height: 38px;
+  border-left: 5px solid #ed407e;
+}
+
+.pick .pick_car .pick_car_title .title_lsit {
+  float: left;
+  font-weight: 400;
+  color: #666666;
+  font-size: 14px;
+  text-align: left;
+  line-height: 38px;
+}
+
+.pick .pick_car .pick_car_title .title_as {
+  position: relative;
+  padding-left: 10px;
+  width: 201px;
+}
+
+.pick .pick_car .pick_car_title .title_bs {
+  width: 376px;
+}
+
+.pick .pick_car .pick_car_title .title_cs {
+  width: 110px;
+}
+
+.pick .pick_car .minute {
+  height: 135px;
+  border-top: 1px solid #eee;
+}
+
+.pick .pick_car .minute .minute_list {
+  font-size: 14px;
+  float: left;
+  color: #666;
+  padding-top: 25px;
+}
+
+.pick .pick_car .minute .minute_list_as {
+  width: 205px;
+}
+
+.pick .pick_car .minute .minute_list_as input {
+  margin-left: 14px;
+}
+
+.pick .pick_car .minute .minute_list_as img {
+  display: inline-block;
+  height: 100px;
+  padding: 15px 0;
+}
+
+.pick .pick_car .minute .minute_list_bs {
+  width: 362px;
+}
+
+.pick .pick_car .minute .minute_list_bs p {
+  height: 29px;
+  line-height: 29px;
+  color: #666666;
+}
+
+.pick .pick_car .minute .minute_list_bs p:nth-child(1) {
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.pick .pick_car .minute .minute_list_bs p:nth-child(2) {
+  color: #b2b2b2;
+}
+
+.pick .pick_car .minute .minute_list_bs .ns {
+  margin-right: 6px;
+  background-color: #c69a62;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 2px;
+  line-height: 14px;
+}
+
+.pick .pick_car .minute .minute_list_cs {
+  line-height: normal;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 56px;
+}
+
+.pick .pick_car .minute .p-quantity {
+  width: 74px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.pick .pick_car .minute .p-quantity a {
+  float: left;
+  width: 20px;
+  height: 21px;
+  overflow: hidden;
+  background: #f4f6f5;
+  text-align: center;
+  font: 12px;
+}
+
+.pick .pick_car .minute .p-quantity input {
+  float: left;
+  width: 30px;
+  height: 19px;
+  line-height: 19px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #e9e9e9;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.pick .pick_car .minute .minute_list_es {
+  margin: 0 35px 0 45px;
+}
+
+.pick .pick_car .minute .minute_list_es span {
+  display: block;
+}
+
+.pick .pick_car .minute .minute_list_es span:nth-child(1) {
+  color: #ec3e7d;
+  margin-bottom: 5px;
+}
+
+.pick .pick_car .minute .minute_list_es span:nth-child(2) {
+  font-size: 12px;
+  color: #959595;
+}
+
+.pick .pick_car .minute .minute_list_fs {
+  margin-left: 15px;
+}
+
+.wuyong2 {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.empt {
+  width: 990px;
+  height: 40px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.empt li {
+  float: left;
+  color: #565d67;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.empt li a {
+  color: #565d67;
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.empt .stat {
+  width: 420px;
+  float: right;
+}
+
+.empt .stat p {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.empt .stat p:nth-child(1) {
+  width: 90px;
+  text-align: center;
+}
+
+.empt .stat p:nth-child(2) {
+  width: 190px;
+  text-align: center;
+}
+
+.empt .stat input {
+  float: right;
+  width: 130px;
+  background: #ec3e7d;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.bottom_bd {
+  width: 1310px;
+}

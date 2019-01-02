@@ -1,0 +1,112 @@
+.topbar {
+height: 32px;
+line-height: 32px;
+background-color: #f2f2f2;
+font-size: 12px;
+color: #6c6c6c;
+border-bottom: 1px solid #e5e5e5;
+  .page-rs {
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+    & .login-bar {
+    float: left;
+      & a {
+  color: #ec3e7d;
+      }
+    }
+    & .member-link {
+    float: right;
+    _display: inline;
+    text-align: right;
+      & li {
+      display: inline-block;
+      float: left;
+      height: 32px;
+      position: relative;
+      z-index: 305;
+        & :hover {
+        background: #fff;
+        }
+        & b {
+        background: #dd4337;
+        position: absolute;
+        display: block;
+        width: 15px;
+        height: 15px;
+        top: 4px;
+        border-radius: 12px;
+        line-height: 12px;
+        left: 18px;
+        text-align: center;
+          & span {
+          color: #fff;
+          font-size: 9px;
+          font-weight: normal;
+          }
+        }
+        & .noline {
+          border: none;
+          display: relative;
+        }
+        & .member-linktext a {
+        display: block;
+        font-weight: normal;
+        padding: 0 12px;
+        color: #6c6c6c;
+        font-size: 12px;
+        }
+        & i {
+        color: #ec3e7d;
+        margin-right: 3px;
+        font-size: 16px;
+        font-weight: 900;
+          & .icon-xiangxia {
+          color: #949597;
+          margin-left: 3px;
+          }
+        }
+        & dl {
+        background: #fff;
+        width: 85px;
+        position: absolute;
+        top: 32px;
+        left: -15px;
+        padding: 5px 10px 10px 30px;
+        display: none;
+        box-shadow:0 0 2px #ccc inset;
+          & a {
+          color: #888;
+          }
+          & dd a {
+          text-align: left;
+          line-height: 25px;
+          padding-left: 10px;
+          font-size: 12px;  
+          display: block;
+        }
+        & .dd_cor{
+        color: #ec3e7d;
+        }
+        }
+        & .member_attention{
+          display: block;
+           & a{
+          color: #6c6c6c;
+          font-size: 12px;
+          }
+          & .qr_img{
+          display: none;
+          margin-top: 3px;
+          position: absolute;
+          top: 30px;
+          left: 0;
+          }
+        } 
+      }
+    }
+  }
+}
+
+
+

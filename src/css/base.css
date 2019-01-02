@@ -1,0 +1,115 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input,figure,figcaption{
+    /* 默认有边距，都要清除 */
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    /* 去掉列表的原点 */
+    list-style: none;
+}
+ 
+/*语义化标签添加display:block;*/
+article, aside, canvas, details, figcaption, figure,main,footer, header, hgroup, menu, nav, section, summary
+{ 
+  display: block;
+}
+
+/*行内块元素*/
+input,img{
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+    vertical-align: bottom; 
+    vertical-align:middle;
+}
+ /*这只IE盒模型*/
+*{box-sizing:border-box;}
+/*行内元素*/
+a,a:active,a:visited{
+    /*下划线和颜色*/
+    text-decoration: none;
+    color: #ccc;
+}
+ 
+a:hover{
+    color:#333;
+}
+ 
+textarea{
+    /* 边框清零 */
+    border:none;
+    /* 轮廓线清零 */
+    outline: none;
+    /* 防止文本域被随意拖拽 */
+    resize: none;
+}
+ 
+i{
+    /*文字样式*/
+    font-style: normal; 
+}
+ 
+table{
+    /*边框合并*/
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ 
+ 
+/* 使用伪元素清除浮动 */
+.clearfix::before,
+.clearfix::after{
+    content:"";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: none;
+    clear: both;
+}
+ 
+.clearfix {
+    *zoom: 1;
+}
+ 
+/* 版心*/
+.con{
+    width: 1200px;
+    margin: 0 auto;
+}
+.con1{
+  width:770px;
+}
+
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.ac {
+    text-align:center;
+}
+.hide {
+    display:none;
+}
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+
+/*可选*/
+/*去掉input等聚焦时的蓝色边框*/
+fieldset, img,input,button { border:0 none; padding:0;margin:0;outline-style:none; }
+
+ 
+label{
+    display: inline-block;
+    cursor: pointer;
+}
+ 
+
+
+
+/*可选*/
+/* 自定义数字框配置 */
+/*======================================================*/
+/**/
